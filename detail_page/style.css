@@ -570,7 +570,7 @@ a {
 }
 .order_box .number_count .minus{
     position: absolute;
-    right: 20px; bottom: 20px;
+    right: 77px; bottom: 20px;
     background-color: #ccc;
     
 }
@@ -580,7 +580,7 @@ a {
 }
 .order_box .number_count .plus {
     position: absolute;
-    right: 77px; bottom: 20px;
+    right: 19px; bottom: 20px;
     padding: 1px 9px;
     background-color: #ccc;
 }
