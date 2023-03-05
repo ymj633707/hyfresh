@@ -423,14 +423,49 @@ a {
 
 .product_area .product_image_area .good_area {
     width: 100%; height: 70px;
-    background-color: #ccc;
-    border: 1px solid #000;
+    background-color: #eeeeee;
     margin-bottom: 10px;
+    overflow: hidden;
 }
+
+.product_area .product_image_area .good_area .snsicon_box {
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    }
+.product_area .product_image_area .good_area .snsicon_box .facebook_icon {
+    width: 40%;
+}
+.product_area .product_image_area .good_area .snsicon_box .twitter_icon {
+    width: 40%;
+}
+.product_area .product_image_area .good_area p {
+    width: 18%;
+    float: left;
+    margin-top: 22px;
+    text-align: center;
+    background-color: #00abe4;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
 
 .product_area .product_image_area .event_area {
     width: 100%; height: 100px;
-    background-color: #ccc;
+    background-color: #eee;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.product_area .product_image_area .event_area p {
+    font-size: 17px;
+    padding-top: 20px;
+}
+.product_area .product_image_area .event_area select{
+    width: 90% ;
 }
 
 
@@ -608,7 +643,7 @@ a {
 /*---------------------------------------- product_area ----------------------------------------*/
 .suggestion_ex {
     width: 100%; height: 250px;
-    background-color: #ccc;
+    background-color: #eee;
    
 }
 
